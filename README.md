@@ -1,4 +1,4 @@
-# EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD
+# EXPERIMENT--04-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD
 
 Name : SHALINI K
 
@@ -10,7 +10,7 @@ To Interface a 4X4 matrix keypad and show the output on 16X2 LCD display to ARM 
 STM32 CUBE IDE, Proteus 8 simulator .
 ## Theory:
 
-![image](https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2)
+<img height=10% width=50% src="https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2">
 
 4×4 Keypad Module Pin Diagram
  
@@ -36,9 +36,9 @@ These Keypad modules are made of thin, flexible membrane material. The 4 x4 keyp
 All the above mentioned LCD display will have 16 Pins and the programming approach is also the same and hence the choice is left to you. 
 Below is the Pinout and Pin Description of 16x2 LCD Module:
 
-![image](https://user-images.githubusercontent.com/36288975/233858086-7b1a88a2-f941-475c-86c2-b3bae68bdf7e.png)
-![image](https://user-images.githubusercontent.com/36288975/233857710-541ac1c2-786c-4dfc-b7b5-e3a4868a9cb6.png)
-![image](https://user-images.githubusercontent.com/36288975/233857733-05df5dbf-1a1e-479e-85bb-8014a39ad878.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/233858086-7b1a88a2-f941-475c-86c2-b3bae68bdf7e.png">
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/233857710-541ac1c2-786c-4dfc-b7b5-e3a4868a9cb6.png">
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/233857733-05df5dbf-1a1e-479e-85bb-8014a39ad878.png">
 
 4-bit and 8-bit Mode of LCD:
 
@@ -129,41 +129,41 @@ Jump to second line, position 2
  
 ## Procedure:
  1. click on STM 32 CUBE IDE, the following screen will appear 
- ![image](https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png">
 
  2. click on FILE, click on new stm 32 project 
- ![image](https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png)
-![image](https://user-images.githubusercontent.com/36288975/226189230-bf2d90dd-9695-4aaf-b2a6-6d66454e81fc.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png">
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189230-bf2d90dd-9695-4aaf-b2a6-6d66454e81fc.png">
 3. select the target to be programmed  as shown below and click on next 
 
-![image](https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png">
 
 4.select the program name 
-![image](https://user-images.githubusercontent.com/36288975/226189316-09832a30-4d1a-4d4f-b8ad-2dc28f137711.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189316-09832a30-4d1a-4d4f-b8ad-2dc28f137711.png">
 
 
 5. corresponding ioc file will be generated automatically 
-![image](https://user-images.githubusercontent.com/36288975/226189378-3abbdee2-0df6-470f-a3cd-79c74e3d3ad8.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189378-3abbdee2-0df6-470f-a3cd-79c74e3d3ad8.png">
 
 6.select the appropriate pins as gipo, in or out, USART or required options and configure 
-![image](https://user-images.githubusercontent.com/36288975/226189403-f7179f1a-3eae-4637-826b-ab4ec35ba1e1.png)
-![image](https://user-images.githubusercontent.com/36288975/226189425-2b2414ce-49b3-4b61-a260-c658cb2e4152.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189403-f7179f1a-3eae-4637-826b-ab4ec35ba1e1.png">
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189425-2b2414ce-49b3-4b61-a260-c658cb2e4152.png">
 
 
 7.click on cntrl+S , automaticall C program will be generated 
-![image](https://user-images.githubusercontent.com/36288975/226189443-8b43451d-0b14-47e4-a20b-cc09c6ad8458.png)
-![image](https://user-images.githubusercontent.com/36288975/226189450-85ffa969-2ffb-4788-81e5-72d60fdda0f1.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189443-8b43451d-0b14-47e4-a20b-cc09c6ad8458.png">
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189450-85ffa969-2ffb-4788-81e5-72d60fdda0f1.png">
 8. edit the program and as per required 
-![image](https://user-images.githubusercontent.com/36288975/226189461-a573e62f-a109-4631-a250-a20925758fe0.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189461-a573e62f-a109-4631-a250-a20925758fe0.png">
 
 9. Add necessary library files of LCD 16x2 , write the program and use project and build  
 
-![image](https://user-images.githubusercontent.com/36288975/226189554-3f7101ac-3f41-48fc-abc7-480bd6218dec.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189554-3f7101ac-3f41-48fc-abc7-480bd6218dec.png">
 10. once the project is bulild 
-![image](https://user-images.githubusercontent.com/36288975/226189577-c61cc1eb-3990-4968-8aa6-aefffc766b70.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189577-c61cc1eb-3990-4968-8aa6-aefffc766b70.png">
 
 11. click on debug option 
-![image](https://user-images.githubusercontent.com/36288975/226189625-37daa9a3-62e9-42b5-a5ce-2ac63345905b.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/226189625-37daa9a3-62e9-42b5-a5ce-2ac63345905b.png">
 
 
 12.  Creating Proteus project and running the simulation
@@ -172,17 +172,17 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
 14. After creation of the circuit as per requirement as shown below 
 
-![image](https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png">
 
 14. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 15. click on debug and simulate using simulation as shown below 
 
-![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
+<img height=10% width=50% src="https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png">
 
 ## CIRCUIT DIAGRAM 
- ![image](https://github.com/user-attachments/assets/600ba502-9dd3-4ece-9eef-49da8a2f477a)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/600ba502-9dd3-4ece-9eef-49da8a2f477a">
 
 ## STM 32 CUBE PROGRAM :
 
@@ -578,29 +578,29 @@ void assert_failed(uint8_t *file, uint32_t line)
 ```
 ## Output screen shots of proteus  :
 
-![keyon](https://github.com/user-attachments/assets/1496bd62-e4fe-41d7-a298-800cde33565d)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/1496bd62-e4fe-41d7-a298-800cde33565d">
 
-![key1](https://github.com/user-attachments/assets/5c7e41b4-207f-4877-a4ff-a86db9c96e9e)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/5c7e41b4-207f-4877-a4ff-a86db9c96e9e">
 
-![key2](https://github.com/user-attachments/assets/ca742522-33a5-47be-8409-9d69695ed4cf)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/ca742522-33a5-47be-8409-9d69695ed4cf">
 
-![key3](https://github.com/user-attachments/assets/30b0a788-7a9c-42fb-8f1f-744fec361591)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/30b0a788-7a9c-42fb-8f1f-744fec361591">
 
-![key4](https://github.com/user-attachments/assets/9ed7b2e4-23fe-4aa8-bc3a-59caee7862e2)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/9ed7b2e4-23fe-4aa8-bc3a-59caee7862e2">
 
-![key5](https://github.com/user-attachments/assets/b9af1a97-5ead-42e0-abe3-5af1d4e4ba66)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/b9af1a97-5ead-42e0-abe3-5af1d4e4ba66">
 
-![key6](https://github.com/user-attachments/assets/077cb473-af4b-4c4f-a91d-71f9dc2e40e2)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/077cb473-af4b-4c4f-a91d-71f9dc2e40e2">
 
-![key7](https://github.com/user-attachments/assets/b01bfc43-bdad-493a-ba92-d55380c72fa0)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/b01bfc43-bdad-493a-ba92-d55380c72fa0">
 
-![key8](https://github.com/user-attachments/assets/c5aa14c5-7ff3-4b63-b4f4-0d76741d7950)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/c5aa14c5-7ff3-4b63-b4f4-0d76741d7950">
 
-![key9](https://github.com/user-attachments/assets/7eb12197-d46d-47f1-8ec3-1e47ea77e895)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/7eb12197-d46d-47f1-8ec3-1e47ea77e895">
 
 
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
-![exp5pdf](https://github.com/user-attachments/assets/b4c14a4d-eccd-4766-8762-df545cc2a406)
+<img height=10% width=50% src="https://github.com/user-attachments/assets/b4c14a4d-eccd-4766-8762-df545cc2a406">
 
 
 ## Result :
